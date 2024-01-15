@@ -1,0 +1,24 @@
+[package]
+name = "optimization"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arbitrary = { version = "1", features = ["derive"] }
+ascent = "0.5"
+clap = { version = "4.3", features = ["derive"] }
+derive_more = "0.99"
+hashconsing = "1"
+logos = "0.13"
+pest = "2"
+pest_derive = "2"
+getrandom = "0.2"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde-lexpr = "0.1"
+
+[dev-dependencies]
+arbtest = "0.2"
+collapse = "0.1"
+tempfile = "3.7"
